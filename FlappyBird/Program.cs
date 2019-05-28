@@ -608,6 +608,7 @@ namespace FlappyBird
                                 }
                             }
                         }
+
                         if (!isPrinted)
                         {
                             for (int a = 0; a < height; a++)
