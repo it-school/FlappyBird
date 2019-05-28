@@ -624,6 +624,7 @@ namespace FlappyBird
                                 }
                             }
                         }
+
                         if (!isPrinted)
                         {
                             for (int y = 0; y < height; y++)
@@ -639,6 +640,7 @@ namespace FlappyBird
                                 }
                             }
                         }
+
                         if (!isPrinted)
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
@@ -680,6 +682,7 @@ namespace FlappyBird
                     break;
                 }
             }
+
             if (gameOver)
             {
                 try
